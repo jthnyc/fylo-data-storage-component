@@ -4,4 +4,4 @@
 
 ## Attempt #1
 
-![Design preview for the Fylo data storage component coding challenge](./design/desktop-preview.jpg)
+![Design preview for first attempt](./images/attempt1.png)
