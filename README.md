@@ -4,4 +4,4 @@
 
 ## Attempt #1
 
-![Design preview for first attempt](./images/attempt1.png)
+![Version 1 attempt](./images/attempt1.png)
