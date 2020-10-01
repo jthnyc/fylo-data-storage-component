@@ -58,20 +58,20 @@ body {
 }
 
 .icons {
+  border: 1px solid yellow;
   display: flex;
   flex-direction: row;
   background-color: var(--verydarkblue);
   width: 27%;
-  justify-items: center;
+  /* justify-items: center; */
+  justify-content: center;
+  align-items: center;
   border-radius: 10px;
 }
 
 .icons img {
-  height: 20px;
-  width: 20px;
-  position: relative;
-  left: 28%;
-  top: 30%;
+  height: 40%;
+  width: 40%;
 }
 
 .storage-container {
@@ -97,7 +97,7 @@ body {
 }
 
 .progress-bar {
-  /* border: 1px solid white; */
+  border: 1px solid white;
   height: 20px;
   width: 100%;
   background-color: var(--verydarkblue);
@@ -105,11 +105,13 @@ body {
 }
 
 .progress {
-  /* border: 1px solid red; */
+  border: 1px solid red;
   height: 20px;
   width: 80%;
   background: linear-gradient(90deg, #ff9d98 0%, #ff7894 55%, #fd5492 100%);
   border-radius: 10px;
+  /* display: flex;
+  justify-content: flex-end; */
 }
 
 .progress-point {
@@ -120,6 +122,7 @@ body {
   width: 20px;
   position: relative;
   left: 410px;
+  /* align-self: flex-start; */
 }
 
 .gb-count {
@@ -158,9 +161,4 @@ body {
 .convo-shape span {
   font-size: 35px;
   font-style: bold;
-}
-
-.background {
-  /* position: relative;
-  z-index: 1; */
 }
